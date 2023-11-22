@@ -15,7 +15,15 @@ const treeData = [{
             name: '2、加一份额外的绿色',
             attributes: {
                 cover: 'https://upload-images.jianshu.io/upload_images/3152596-0f96dafcd0cbde1e?imageMogr2/auto-orient/strip%7CimageView2/2/w/640'
-            }
+            },
+            children:[
+                {
+                    name: '1、加一份额外的绿色',
+                    attributes: {
+                        cover: 'https://upload-images.jianshu.io/upload_images/3152596-0f96dafcd0cbde1e?imageMogr2/auto-orient/strip%7CimageView2/2/w/640'
+                    }
+                },
+            ]
         },
         {
             name: '3、各种色彩缤纷的食材点缀',
